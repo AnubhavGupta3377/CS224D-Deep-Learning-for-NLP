@@ -290,7 +290,9 @@ class RNN_Model():
 
             #save if model has improved on val
             if val_loss < best_val_loss:
-                 #shutil.copyfile('./weights/%s.temp'%self.config.model_name, './weights/%s'%self.config.model_name)
+                 shutil.copyfile('./weights/%s.temp.data-00000-of-00001'%self.config.model_name, './weights/%s.data-00000-of-00001'%self.config.model_name)
+                 shutil.copyfile('./weights/%s.temp.index'%self.config.model_name, './weights/%s.index'%self.config.model_name)
+                 shutil.copyfile('./weights/%s.temp.meta'%self.config.model_name, './weights/%s.meta'%self.config.model_name)
                  best_val_loss = val_loss
                  best_val_epoch = epoch
 
