@@ -15,7 +15,14 @@
 ## Assignment-3
 - RNN’s (Recursive Neural Network)
 
-## Prerequisite
+## Midterm Exam
+- Tensorflow and Backpropagation
+- Word2Vec and GloVe
+- DeepNLP in Practice (Case Study)
+- LSTMs, GRUs and Recursive Networks
+- Hyper-Parameter Tuning
+
+## Prerequisites for Running Models from Assignments
 - Python 3.5
 - Tensorflow 1.2.1 (Assignment 1,2)
 - Tensorflow 1.12.0 (Assignment 3)
